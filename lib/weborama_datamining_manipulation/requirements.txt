@@ -1,0 +1,26 @@
+#
+####### requirements.txt #######
+#
+pytest
+sphinx
+
+###### Requirements without Version Specifiers ######
+pysftp
+
+#
+###### Requirements with Version Specifiers ######
+#   See https://www.python.org/dev/peps/pep-0440/#version-specifiers
+boto3 == 1.2.4
+botocore == 1.4.78
+
+requests >= 2.2.1            # Minimum version 4.1.1
+
+#
+###### Refer to other requirements files ######
+# -r other-requirements.txt
+#
+#
+###### A particular file ######
+# ./downloads/numpy-1.9.2-cp34-none-win32.whl
+# http://wxpython.org/Phoenix/snapshot-builds/wxPython_Phoenix-3.0.3.dev1820+49a8884-cp34-none-win_amd64.whl
+#
