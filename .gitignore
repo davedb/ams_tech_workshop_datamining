@@ -1,0 +1,8 @@
+__pycache__
+lib
+lib/*
+log/*
+*~
+*_secret.txt
+asset/
+output/
